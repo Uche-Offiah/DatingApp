@@ -20,7 +20,7 @@ model: any = {};
       this.router.navigateByUrl('/members');
     },error =>{
       console.log(error);
-      this.toastr.error(error.error);
+      //this.toastr.error(error.error);
     })
   }
 
